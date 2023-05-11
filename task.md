@@ -34,7 +34,7 @@ You can find specific acceptance criteria below.
 4. You can use other external libraries to speed up your work.
 5. You can use a styling framework (Material UI, Bootstrap, or other) for quick and consistent styling.
 6. If you're not able to implement all parts of the task, partial submissions are welcome.
-7. Provide the GitHub repository link via email within 48 hours of receiving the task.
+7. Provide the GitHub repository link via email within 24 hours of receiving the task.
 8. The code should be properly organized and follow best practices for maintainability and scalability.
 
 ## Tips
