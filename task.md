@@ -4,33 +4,30 @@ Welcome to Unvoid Tech Angular coding task.
 ![image](https://i.ibb.co/4FpK1zB/Screenshot-20230205-104711.png)
 
 ## The task
-Create a simple Rick and Morty app that displays a list of characters from the show and allows users to view details about each character.
+Create a simple web application that allows users to view and manage a list of to-do items.
 
-Sample character card
+### Requirements:
+1. The application should have a navigation bar with two links: Home and Add Item.
+2. The Home page should display a list of to-do items. Each item should display the task name, the due date, and a checkbox indicating whether the task is completed or not.
+3. The list of to-do items should be retrieved from a mock API service using Angular's HttpClient module.
+4. Users should be able to mark a task as completed by checking the checkbox next to the task.
+5. Users should be able to add a new task by clicking on the Add Item link in the navigation bar. This should navigate the user to a form where they can enter the task name and due date.
+6. Users should be able to submit the form and have the new task added to the list of to-do items.
+7. Users should not be able to submit the form if the task name or due date fields are empty.
+8. Users should be able to delete a task by clicking on a delete button next to the task.
+9. The application should have basic styling using CSS/SCSS.
 
-![image](https://user-images.githubusercontent.com/124139608/216905974-54456783-f951-4e1c-8b08-d13d9b4ce57f.png)
+### Bonus points:
+1. Add pagination to the list of to-do items.
+2. Add search functionality to the list of to-do items.
+3. Use Angular's Reactive Forms to create the form for adding a new task.
 
-* use https://rickandmortyapi.com/api to fetch characters and their details
-* for api documentation visit https://rickandmortyapi.com/documentation/#rest
-
-
-
-You can find specific acceptance criteria below.
-
-### Acceptance Criteria
-1. A component for displaying the list of characters is created and it makes a GET request to the Rick and Morty API to retrieve a list of characters.
-2. The list of characters is displayed in the template using *ngFor, showing each character's name, image, and species as shown in above sample character card.
-3. A detail component is created for viewing more information about a character, which is accessible by clicking on a character in the list.
-4. The detail component makes a GET request to the Rick and Morty API for the specific character based on its id, passed in as a route parameter.
-5. The detail component displays the character's name, image, species, status, origin, and location.
-6. Navigation is added to the app so that users can move between the character list and character detail pages.
-7. The code should be submitted as a GitHub repository with clear documentation on how to run the application locally should be added in README.md.
-8. (Optional) The application can be deployed to a test server and the link to the deployed application can be provided.
+*Note: The mock API service can be created using Angular's InMemoryWebApi module.
 
 ## Ground rules
 1. The solution should be coded in TypeScript. Styling should be done in CSS or SCSS. Your choice.
 2. Put the code on your GitHub account in a public repo.
-3. You don't need to add any extra features or improvements not listed in the Acceptance Criteria. There are no bonus points for it.
+3. You don't need to add any extra features or improvements not listed in the Requirements.
 4. You can use other external libraries to speed up your work.
 5. You can use a styling framework (Material UI, Bootstrap, or other) for quick and consistent styling.
 6. If you're not able to implement all parts of the task, partial submissions are welcome.
